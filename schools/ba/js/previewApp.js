@@ -1,5 +1,5 @@
 ﻿var app = angular.module('previewApp', ['ngAnimate', 'ngSanitize']);
-var BASE_URL = "http://proj.ruppin.ac.il/igroup81/bsc/views/main/projectBoard.html";
+var BASE_URL = "http://proj.ruppin.ac.il/igroup81/BA/views/main/projectBoard.html";
 
 app.controller('previewController', ['$scope', '$rootScope','$sce',
     function ($scope, $rootScope, $sce) {

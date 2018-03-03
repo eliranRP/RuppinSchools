@@ -48,7 +48,7 @@
                     id: '',
                     imageUrl: 'https://firebasestorage.googleapis.com/v0/b/bscbehevioralprod.appspot.com/o/defProfile.png?alt=media&token=6669a507-7e21-4f49-acc9-800980c09b3f'
                 },
-                year: ['תשע"ז', 'תשע"ח', 'תשע"ט', 'תש"פ', 'תשפ"א', 'תשפ"ב', 'תשפ"ג', 'תשפ"ד', 'תשפ"ה', 'תשפ"ו','תשפ"ז'],
+                year: ['תשע"ז', 'תשע"ח', 'תשע"ט', 'תש"פ'],
                 detailes: {
                     ref: 'details',
                     parentRef: 'group',
