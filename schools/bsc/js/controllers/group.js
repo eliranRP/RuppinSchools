@@ -48,8 +48,17 @@
                                 $scope.detailes = $firebaseObject(detailsRef);
 
                                 $scope.detailes.$loaded().then(function (data) {
+                                    /*https://summernote.org/  */
                                     $('.note-editable').html($scope.detailes.project.desc);
-                                    $('#add_product_desc, #edit_product_desc').summernote();
+                                    $('#add_product_desc, #edit_product_desc').summernote({
+                                        toolbar: [
+                                            ['style', ['bold', 'italic', 'underline', 'clear']],
+                                            ['fontsize', ['fontsize']],
+                                            ['color', ['color']],
+                                            ['misc', ['undo', 'redo', 'fullscreen']],
+                                            ['height', ['height']]
+                                        ]
+                                    });
 
                                 })
                             }
