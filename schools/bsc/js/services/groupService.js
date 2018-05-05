@@ -2,6 +2,7 @@
     function ($rootScope, $firebaseArray, $timeout, $firebaseObject, $location) {
         var ref = firebase.database().ref();
         var myObject;
+        var appConf = appConfigurationGlobal
         myObject = {
             tabs: {
                 headers: {
@@ -65,7 +66,7 @@
                     general: {
                         advisor: '',
                         year: '',
-                        department: 'מדעי ההתנהגות',
+                        department: appConf.title,
                         area: {
                             name: '',
                             desc: ''
