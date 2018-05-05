@@ -79,7 +79,7 @@ var configuration = {
             schoolName: domainConfiguration.school.bsc,
             title: "מדעי ההתנהגות",
             subDomain: "/views/main/projectBoard.html",
-            logo:"/bsc/images/schools_headers/header-behavioral.png",
+            logo:"https://firebasestorage.googleapis.com/v0/b/bscbehevioralprod.appspot.com/o/header-behavioral.png?alt=media&token=b9c0cb05-54ac-492b-a628-7563454814fd",
             firebaseConf: firebaseConfiguration.bsc.prod,
             baseUrl: function () {
                 return  domainConfiguration.baseUrl() + this.schoolName + this.subDomain
@@ -90,7 +90,7 @@ var configuration = {
         ba: {
             schoolName: domainConfiguration.school.ba,
             title: "מנהל עסקים",
-            logo:"/bsc/images/schools_headers/header_business_adm.jpg",
+            logo:"https://firebasestorage.googleapis.com/v0/b/bscbehevioralprod.appspot.com/o/header_business_adm.jpg?alt=media&token=7dca2de0-2e65-421c-aae8-8ea710ef046b",
             subDomain: "/views/main/projectBoard.html",
             firebaseConf: firebaseConfiguration.ba.prod,
             baseUrl: function () {
@@ -100,7 +100,7 @@ var configuration = {
         soms: {
             schoolName: domainConfiguration.school.soms,
             title: "בית-הספר למדעי הים",
-            logo: "../../images/schools_headers/header_school_marine.jpg",
+            logo: "https://firebasestorage.googleapis.com/v0/b/bscbehevioralprod.appspot.com/o/header_school_marine.jpg?alt=media&token=131d62b6-0396-47c7-897a-203317a7586b",
             subDomain: "/views/main/projectBoard.html",
             firebaseConf: firebaseConfiguration.soms.prod,
             baseUrl: function () {
@@ -113,6 +113,6 @@ var configuration = {
 }
 
 //Change this line for the to initialize
-configuration.currentApp = configuration.Apps.ba
+configuration.currentApp = configuration.Apps.bsc
 
 firebase.initializeApp(configuration.currentApp.firebaseConf);

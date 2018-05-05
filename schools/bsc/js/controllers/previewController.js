@@ -2,6 +2,7 @@
     function ($scope, $rootScope, $sce) {
 
         $scope.configuration = configuration.currentApp;
+        console.log($scope.configuration)
 
         function youtube_parser(url) {
             var regExp = /^.*((youtu.be\/)|(v\/)|(\/u\/\w\/)|(embed\/)|(watch\?))\??v?=?([^#\&\?]*).*/;
