@@ -1,0 +1,16 @@
+{
+  "admin" : {
+    "<Admin_Id>" : {
+      "date" : 1497732382319,
+      "editModal" : "#editAdminModal",
+      "email" : "master@gmail.com",
+      "id" : "<Admin_Id>",
+      "imagUrl" : "",
+      "modalToggle" : "#newAdminModal",
+      "name" : "admin",
+      "password" : "123456",
+      "role" : "admin",
+      "type" : "admin"
+    }
+  }
+}

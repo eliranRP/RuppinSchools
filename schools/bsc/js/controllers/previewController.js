@@ -1,10 +1,7 @@
-﻿var app = angular.module('previewApp', ['ngAnimate', 'ngSanitize']);
-var appConfiguration = configuration.currentApp;
-
-app.controller('previewController', ['$scope', '$rootScope', '$sce',
+﻿MainApp.controller('previewController', ['$scope', '$rootScope', '$sce',
     function ($scope, $rootScope, $sce) {
 
-        $scope.configuration = appConfiguration;
+        $scope.configuration = configuration.currentApp;
 
         function youtube_parser(url) {
             var regExp = /^.*((youtu.be\/)|(v\/)|(\/u\/\w\/)|(embed\/)|(watch\?))\??v?=?([^#\&\?]*).*/;
