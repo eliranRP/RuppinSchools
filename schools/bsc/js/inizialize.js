@@ -113,7 +113,6 @@ var configuration = {
 }
 
 //Change this line for the to initialize
-
 configuration.currentApp = configuration.Apps.soms
 
 
