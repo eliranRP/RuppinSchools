@@ -1,7 +1,7 @@
 ﻿var app = angular.module('previewApp', ['ngAnimate', 'ngSanitize']);
-var BASE_URL = "http://proj.ruppin.ac.il/igroup81/bsc/views/main/projectBoard.html";
+var BASE_URL = configuration.currentApp.baseUrl;
 
-app.controller('previewController', ['$scope', '$rootScope','$sce',
+app.controller('previewController', ['$scope', '$rootScope', '$sce',
     function ($scope, $rootScope, $sce) {
 
         $scope.baseUrl = BASE_URL;
@@ -12,15 +12,15 @@ app.controller('previewController', ['$scope', '$rootScope','$sce',
             return (match && match[7].length == 11) ? match[7] : false;
         }
 
-       
+
         try {
 
-             $scope.preview = JSON.parse(localStorage.getItem("preiview"));
-             var htmlContent = $scope.preview.details.project.desc;
-             $('#summernote').summernote('code', htmlContent);
+            $scope.preview = JSON.parse(localStorage.getItem("preiview"));
+            var htmlContent = $scope.preview.details.project.desc;
+            $('#summernote').summernote('code', htmlContent);
             setNotepadStyle();
 
-           
+
 
             var youtubeSrc = $scope.preview.details.poster.movieUrl;
 

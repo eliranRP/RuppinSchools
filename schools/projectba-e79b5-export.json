@@ -1,0 +1,118 @@
+{
+  "admin" : {
+    "rxLm9EIU91fykXoXY1XGKHpkf9t2" : {
+      "date" : 1497732382319,
+      "editModal" : "#editAdminModal",
+      "email" : "master@gmail.com",
+      "id" : "rxLm9EIU91fykXoXY1XGKHpkf9t2",
+      "imagUrl" : "",
+      "modalToggle" : "#newAdminModal",
+      "name" : "admin",
+      "password" : "123456",
+      "role" : "admin",
+      "type" : "admin"
+    }
+  },
+  "group" : {
+    "2QYJmrzf8ieVdaPMfMIVp7ieYIV2" : {
+      "date" : 1517752330537,
+      "details" : {
+        "general" : {
+          "advisor" : "",
+          "area" : {
+            "desc" : "",
+            "name" : ""
+          },
+          "department" : "מדעי ההתנהגות",
+          "year" : "תשע\"ז"
+        },
+        "parentRef" : "group",
+        "poster" : {
+          "fileUrl" : "",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/projectba-e79b5.appspot.com/o/group%2Fposter%2Fimg%2F2QYJmrzf8ieVdaPMfMIVp7ieYIV2%2FmemberImage.jpeg?alt=media&token=a93ec9cc-56ca-4312-899a-2c7bbb5e4686",
+          "movieUrl" : "https://youtu.be/GwDpCiKBRHQ"
+        },
+        "project" : {
+          "desc" : "<p>הטקסט של ד\"ר סוס <b>בנושא </b>\"האני\"&nbsp;</p><p dir=\"rtl\" class=\"font_8\" style=\"margin-bottom: 0px; padding: 0px; border: 0px; vertical-align: baseline; background: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 16px; line-height: normal; font-family: alef-regular, sans-serif; color: rgb(0, 75, 125);\"><span style=\"margin: 0px; padding: 0px; border: 0px; vertical-align: baseline; background: transparent; font-weight: bold;\">לי בקצרה:&nbsp;</span></p><p dir=\"rtl\" class=\"font_8\" style=\"margin-bottom: 0px; padding: 0px; border: 0px; vertical-align: baseline; background: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 16px; line-height: normal; font-family: alef-regular, sans-serif; color: rgb(0, 75, 125);\">הצטרפתי לרופין בינואר 2015 כראש תחום הוראה מקוונת, אני מגיעה מעולם ההייטק בו עבדתי מעל 20 שנה בחברות חדשניות ופורצות דרך. אני אוהבת טכנולוגיה וגם להתאמן ביוגה (איינגר), לבלות בים&nbsp;וללמוד (לפחות משהו חדש אחד כל יום).</p><p dir=\"rtl\" class=\"font_8\" style=\"margin-bottom: 0px; padding: 0px; border: 0px; vertical-align: baseline; background: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 16px; line-height: normal; font-family: alef-regular, sans-serif; color: rgb(0, 75, 125);\">אני מאמינה שהאנשים הם המשאב המשמעותי,&nbsp;והמטרה היא לאפשר להם להתפתח&nbsp;ולצמוח להיות אנשים משכילים ואזרחים תורמים.&nbsp;מקווה לפגוש כל אחד ואחת מכם.</p><p dir=\"rtl\" class=\"font_8\" style=\"margin-bottom: 0px; padding: 0px; border: 0px; vertical-align: baseline; background: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 16px; line-height: normal; font-family: alef-regular, sans-serif; color: rgb(0, 75, 125);\"><span style=\"margin: 0px; padding: 0px; border: 0px; vertical-align: baseline; background: transparent; font-weight: bold;\">מיכל הנדל-סופה</span>,&nbsp;ראש תחום הוראה מקוונת -&nbsp;היחידה <a href=\"http://eco99fm.maariv.co.il/music_channel/6903.aspx?t=0\">לקידום ההוראה</a>.</p><p dir=\"rtl\" class=\"font_8\" style=\"margin-bottom: 0px; padding: 0px; border: 0px; vertical-align: baseline; background: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 16px; line-height: normal; font-family: alef-regular, sans-serif; color: rgb(0, 75, 125);\">T: 09-8981361<gs id=\"e1815fb5-a80c-49d8-8ab0-1e4780f442ba\" ginger_software_uiphraseguid=\"5a60f20a-c6d2-4176-b878-c42039f86d0f\" class=\"GINGER_SOFTWARE_mark\"> &nbsp;;</gs> E:&nbsp;<a class=\"auto-generated-link\" data-auto-recognition=\"true\" data-content=\"michalh@ruppin.ac.il\" href=\"mailto:michalh@ruppin.ac.il\" data-type=\"mail\" style=\"margin: 0px; padding: 0px; border: 0px; vertical-align: baseline; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; color: inherit;\">michalh@ruppin.ac.il</a></p>",
+          "name" : "בדרך לשום מקום - אם אפשר לבלוט למה להשתלב",
+          "textDesc" : "הטקסט של ד\"ר סוס בנושא \"האני\" לי בקצרה: הצטרפתי לרופין בינואר 2015 כראש תחום הוראה מקוונת, אני מגיעה מעולם ההייטק בו עבדתי מעל 20 שנה בחברות חדשניות ופורצות דרך. אני אוהבת טכנולוגיה וגם להתאמן ביוגה (איינגר), לבלות בים וללמוד (לפחות משהו חדש אחד כל יום).אני מאמינה שהאנשים הם המשאב המשמעותי, והמטרה היא לאפשר להם להתפתח ולצמוח להיות אנשים משכילים ואזרחים תורמים. מקווה לפגוש כל אחד ואחת מכם.מיכל הנדל-סופה, ראש תחום הוראה מקוונת - היחידה לקידום ההוראה.T: 09-8981361  ; E: michalh@ruppin.ac.il"
+        },
+        "ref" : "details"
+      },
+      "editModal" : "#editGroupModal",
+      "email" : "michalh@ruppin.ac.il",
+      "id" : "2QYJmrzf8ieVdaPMfMIVp7ieYIV2",
+      "imagUrl" : "",
+      "modalToggle" : "#newGroupModal",
+      "password" : "111111",
+      "published" : true,
+      "role" : "group",
+      "tag" : "ראשון",
+      "team" : {
+        "-L4W6ig5LL7EQB56oTF8" : {
+          "editModal" : "#editContactModal",
+          "email" : "",
+          "firstName" : "מיכל",
+          "id" : "-L4W6ig5LL7EQB56oTF8",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/projectba-e79b5.appspot.com/o/group%2Fmembers%2Fimg%2F2QYJmrzf8ieVdaPMfMIVp7ieYIV2%2F-L4W6hdjugNAMuQEUG6k%2FmemberImage.jpg?alt=media&token=2e33439b-5ea8-4be1-8e55-1fbf90087d44",
+          "lastName" : "הנדל",
+          "modalToggle" : "#newContactModal",
+          "parentRef" : "group",
+          "phone" : "",
+          "ref" : "team"
+        }
+      },
+      "type" : "group"
+    },
+    "WdUewCwCkTcSnr2rwbAy0LYdmzH2" : {
+      "date" : 1516474619138,
+      "details" : {
+        "general" : {
+          "advisor" : "",
+          "area" : {
+            "desc" : "",
+            "name" : ""
+          },
+          "department" : "מדעי ההתנהגות",
+          "year" : ""
+        },
+        "parentRef" : "group",
+        "poster" : {
+          "fileUrl" : "",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/projectba-e79b5.appspot.com/o/group%2Fposter%2Fimg%2FWdUewCwCkTcSnr2rwbAy0LYdmzH2%2FmemberImage.png?alt=media&token=afc5f689-ff4b-4322-8008-9eec834b94b7",
+          "movieUrl" : ""
+        },
+        "project" : {
+          "desc" : "<p><iframe frameborder=\"0\" src=\"//www.youtube.com/embed/AWCPS6CXmt0\" width=\"640\" height=\"360\" class=\"note-video-clip\"></iframe></p><p><br></p><p><br></p><p>gfljdhhjhdkg</p><p>gfds</p><p>gfdsg</p><p>dgd</p><p>s</p>",
+          "name" : "hjhjfdkgjhdsk",
+          "textDesc" : "gfljdhhjhdkggfdsgfdsgdgds"
+        },
+        "ref" : "details"
+      },
+      "editModal" : "#editGroupModal",
+      "email" : "student@t.com",
+      "id" : "WdUewCwCkTcSnr2rwbAy0LYdmzH2",
+      "imagUrl" : "",
+      "modalToggle" : "#newGroupModal",
+      "password" : "111111",
+      "published" : true,
+      "role" : "group",
+      "tag" : "gfdsgs",
+      "team" : {
+        "-L3Jvw1Yo92-QnoFQ9F8" : {
+          "editModal" : "#editContactModal",
+          "email" : "",
+          "firstName" : "fdlskajl",
+          "id" : "-L3Jvw1Yo92-QnoFQ9F8",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/bscbehevioralprod.appspot.com/o/defProfile.png?alt=media&token=6669a507-7e21-4f49-acc9-800980c09b3f",
+          "lastName" : "jlkfdjskla",
+          "modalToggle" : "#newContactModal",
+          "parentRef" : "group",
+          "phone" : "",
+          "ref" : "team"
+        }
+      },
+      "type" : "group"
+    }
+  }
+}

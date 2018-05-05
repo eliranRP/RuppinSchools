@@ -1,0 +1,16 @@
+{
+  "admin" : {
+    "3e4trpykA4VTdlMa3DuUHlidKsU2" : {
+      "date" : 1497732382319,
+      "editModal" : "#editAdminModal",
+      "email" : "master@gmail.com",
+      "id" : "3e4trpykA4VTdlMa3DuUHlidKsU2",
+      "imagUrl" : "",
+      "modalToggle" : "#newAdminModal",
+      "name" : "admin",
+      "password" : "123456",
+      "role" : "admin",
+      "type" : "admin"
+    }
+  }
+}
