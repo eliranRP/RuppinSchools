@@ -28,7 +28,6 @@
     <script src="../../../js/inizialize.js"></script>
     <script src="https://cdn.firebase.com/libs/angularfire/2.3.0/angularfire.min.js"></script>
 
-    <title> {{configuration.title}} </title>
     
     <!--services-->
 
@@ -71,7 +70,7 @@
              style="height:66px!important">
             <a ng-href="{{configuration.baseUrl()}}">
                 <img id="rup-logo"
-                     src="{{configuration.logo}}" alt="Logo">
+                     ng-src="{{configuration.logo}}" alt="Logo">
             </a>
 
         </div>

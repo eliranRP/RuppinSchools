@@ -2,7 +2,7 @@
     '$firebaseArray', '$firebaseObject', '$location', 'systemService', 'groupService', '$sce',
     function ($scope, $rootScope, $firebaseArray, $firebaseObject, $location, systemService, groupService, $sce) {
         var ref = firebase.database().ref();
-
+        $scope.configuration = configuration.currentApp;
         var groupRef = ref.child(systemService.objects.group.type);
         $scope.groupArr = $firebaseArray(groupRef);
 
