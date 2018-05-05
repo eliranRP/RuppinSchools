@@ -113,6 +113,6 @@ var configuration = {
 }
 
 //Change this line for the to initialize
-configuration.currentApp = configuration.Apps.ba
+configuration.currentApp = configuration.Apps.soms
 
 firebase.initializeApp(configuration.currentApp.firebaseConf);
