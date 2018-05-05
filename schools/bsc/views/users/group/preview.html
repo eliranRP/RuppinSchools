@@ -1,11 +1,11 @@
 ﻿<!DOCTYPE html>
-<html lang="en" ng-app="previewApp">
+<html lang="en" ng-app="MainApp">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="description" content="">
     <meta name="keywords" content="">
-    <title> מדעי ההתנהגות תצוגה מקדימה </title>
+
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Poppins:300,400,500,600" rel="stylesheet">
     <link rel="icon" href="../../../assets/img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="../../../assets/css/vendor.bundle.css">
@@ -18,16 +18,48 @@
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular-route.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular-sanitize.min.js"></script>
 
-    <script src="../../../js/previewApp.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/4.1.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.1.2/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.1.2/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.1.2/firebase-storage.js"></script>
+    <script src="../../../js/app.js"></script>
+    <!--// Initialize Firebase-->
+    <script src="../../../js/inizialize.js"></script>
+    <script src="https://cdn.firebase.com/libs/angularfire/2.3.0/angularfire.min.js"></script>
+
+    <title> {{configuration.title}} </title>
+    
+    <!--services-->
 
     <script src="../../../js/services/youTube.js"></script>
     <script src="../../../js/services/angular-youtube-embed.min.js"></script>
 
+    <script src="../../../js/controllers/previewController.js"></script>
+
+
+
+
+    <title> {{configuration.title}} </title>
     <style>
         .white-background {
             background-color: white !important;
         }
     </style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </head>
 
@@ -37,9 +69,9 @@
              style="padding-left:0px!important;">
         <div class="logo"
              style="height:66px!important">
-            <a ng-href="{{baseUrl}}">
+            <a ng-href="{{configuration.baseUrl()}}">
                 <img id="rup-logo"
-                     src="../../../header-behavioral.png" alt="Logo">
+                     src="{{configuration.logo}}" alt="Logo">
             </a>
 
         </div>

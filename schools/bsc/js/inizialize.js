@@ -44,6 +44,7 @@ var firebaseConfiguration = {
         dev: {}
     }
 }
+//Add here the new school
 var domainConfiguration = {
     protocol: "http://",
     host: "proj.ruppin.ac.il/",
@@ -54,10 +55,10 @@ var domainConfiguration = {
         soms: "soms"
 
     },
-    subDomain: "views/main/projectBoard.html",
+
 
     baseUrl: function () {
-        return protocol + host + group + school + subDomain
+        return this.protocol + this.host + this.group +"/"
     }
 
 
@@ -69,33 +70,49 @@ var configuration = {
         title: "",
         firebaseConf: "",
         logoLink: "",
-        baseUrl: ""
+        baseUrl: "",
+        subDomain: "/views/main/projectBoard.html"
     },
+    //Add here the new school
     Apps: {
         bsc: {
+            schoolName: domainConfiguration.school.bsc,
             title: "מדעי ההתנהגות",
+            subDomain: "/views/main/projectBoard.html",
+            logo:"/bsc/images/schools_headers/header-behavioral.png",
             firebaseConf: firebaseConfiguration.bsc.prod,
-            logoLink: domainConfiguration.baseUrl(),
-            baseUrl: domainConfiguration.baseUrl()
+            baseUrl: function () {
+                return  domainConfiguration.baseUrl() + this.schoolName + this.subDomain
+            } 
+           
 
         },
         ba: {
-
+            schoolName: domainConfiguration.school.ba,
             title: "מנהל עסקים",
+            logo:"/bsc/images/schools_headers/header_business_adm.jpg",
+            subDomain: "/views/main/projectBoard.html",
             firebaseConf: firebaseConfiguration.ba.prod,
-            logoLink: domainConfiguration.baseUrl(),
-            baseUrl: domainConfiguration.baseUrl()
+            baseUrl: function () {
+                return  domainConfiguration.baseUrl() + this.schoolName + this.subDomain
+            } 
         },
         soms: {
+            schoolName: domainConfiguration.school.soms,
             title: "בית-הספר למדעי הים",
+            logo: "../../images/schools_headers/header_school_marine.jpg",
+            subDomain: "/views/main/projectBoard.html",
             firebaseConf: firebaseConfiguration.soms.prod,
-            logoLink: domainConfiguration.baseUrl(),
-            baseUrl: domainConfiguration.baseUrl()
-
+            baseUrl: function () {
+             return   domainConfiguration.baseUrl() + this.schoolName + this.subDomain
+            } 
         }
     }
 
 
 }
+
+//Change this line for the to initialize
+configuration.currentApp = configuration.Apps.bsc
 
 firebase.initializeApp(configuration.currentApp.firebaseConf);
